@@ -18,11 +18,11 @@ function ContactInfo() {
       <div className="w-11/12 rounded-xl flex flex-wrap justify-center items-center bg-white dark:bg-gray-600 min-h-[600px] p-3 shadow-2xl">
         <div className="w-full mx-auto flex justify-center">
           <Image
-            src="/contact/default-avatar.jpg"
+            src="/contact/image.jpg"
             alt=""
             width={100}
             height={100}
-            className="rounded-full"
+            style={{borderRadius:"50%"}}
           />
         </div>
         <h1 className="w-full text-center  text-3xl font-name font-bold">
