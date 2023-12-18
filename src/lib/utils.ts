@@ -8,6 +8,6 @@ export function cn(...inputs: ClassValue[]) {
 export type ACTIONS = "about" | "projects" | "Resume";
 
 export interface SubComponentsProps {
-  setAction: React.SetStateAction<ACTIONS>;
+  setAction: React.Dispatch<React.SetStateAction<ACTIONS>>;
   action: ACTIONS;
 }
